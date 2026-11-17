@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# A pitch sent by link: keep it out of search results.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
